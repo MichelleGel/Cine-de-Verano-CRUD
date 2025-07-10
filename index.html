@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet  href="src/styles.css">
+
+    <title>Cine de Verano</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Cine para el Verano</div>
+        </div>
+    </nav>
+
+    <section class="intro" id="home">
+        <div class="intro-content"><br><br>
+            <h1 class="floating">📽️🎬CINE DE VERANO🌴🏖️</h1>
+            <p></p>
+            <button onclick="printMovies()">
+                Explorar Películas
+            </button>
+        </div>
+    </section>
+    
+    <section class="filters-section" id="movies">
+                <h2 class="filters-title">Explora por Género</h2>
+                <div class="filters" id="filters">
+                    <div class="filter-chip active" data-filter="all">Todas</div>
+                    <div class="filter-chip" data-filter="accion">Acción</div>
+                    <div class="filter-chip" data-filter="comedia">Comedia</div>
+                    <div class="filter-chip" data-filter="drama">Drama</div>
+                    <div class="filter-chip" data-filter="romance">Romance</div>
+                    <div class="filter-chip" data-filter="thriller">Thriller</div>
+                    <div class="filter-chip" data-filter="aventura">Aventura</div>
+                </div>
+            </section>
+
+    <!-- Movies Section -->
+    <section class="movies-container">
+        <h2 class="movies-container-title fade-in"></h2>
+        <!--<div class="movies-grid" id="moviesGrid">
+            Movies will be populated here 
+        </div>-->
+    </section>
+
+    <br><br>
+    <section class="forms">
+    <div>
+        <h2 id="forEdit" style="display:none">¿Quieres editar la información de una Película?</h2>
+        <form id="editMovie" style="display:none">
+            <input type="hidden" id="editId" />
+            <input type="text" id="editTitle" placeholder="Título" required /><br>
+            <input type="text" id="editDirector" placeholder="Director" required /><br>
+            <input type="text" id="editYear" placeholder="Año" required /><br>
+            <input type="text" id="editGenre" placeholder="Genero" required /><br>
+            <textarea id="editSynopsis" placeholder="Sinopsis"></textarea><br>
+
+            <button type="submit">Actualizar</button><br>
+            <button type="button" id="cancelEdit">Cancelar</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>¿Quieres agregar una Película?</h2>
+        <form id="movieForm">
+            <input type="text" id="title" placeholder="Título" required /><br>
+            <input type="text" id="year" placeholder="Año" required /><br>
+            <input type="text" id="genre" placeholder="Genero" required /><br>
+            <input type="text" id="category" placeholder="Categoría" required /><br>
+            <input type="text" id="synopsis" placeholder="Sinopsís de la Película" /><br><br>
+            <button type="submit">Agregar Película</button>
+        </form>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Proyecto Cine de Verano en CRUD. Realizado por Michelle Gelves para FemCoders P4. </p>
+        <a href="https://factoriaf5.org" target="_blank">Factoria F5</a>
+    </footer>
+
+    <script src="src/services.js" ></script>
+</body>
+
+</html>
