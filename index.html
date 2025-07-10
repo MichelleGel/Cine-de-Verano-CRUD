@@ -4,77 +4,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=stylesheet  href="src/styles.css">
+    <link rel=stylesheet href="src/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 
     <title>Cine de Verano</title>
+
 </head>
 
 <body>
     <nav class="navbar">
         <div class="nav-content">
-            <div class="logo">Cine para el Verano</div>
+            <div class="logo">📽️🎬CINE DE VERANO🌴🏖️</div>
         </div>
     </nav>
 
+    <!-- intro section-->
     <section class="intro" id="home">
-        <div class="intro-content"><br><br>
-            <h1 class="floating">📽️🎬CINE DE VERANO🌴🏖️</h1>
-            <p></p>
-            <button onclick="printMovies()">
+        <div class="intro-content">
+            <h1 class="floating">CINE DE VERANO 2025</h1>
+            <p>Disfruta de tus vacaciones de verano, viendo peliculas que te transporten a mundos increibles etc</p>
+            <button class="cta-button" onclick="loadMovies()">
                 Explorar Películas
             </button>
         </div>
     </section>
-    
-    <section class="filters-section" id="movies">
-                <h2 class="filters-title">Explora por Género</h2>
-                <div class="filters" id="filters">
-                    <div class="filter-chip active" data-filter="all">Todas</div>
-                    <div class="filter-chip" data-filter="accion">Acción</div>
-                    <div class="filter-chip" data-filter="comedia">Comedia</div>
-                    <div class="filter-chip" data-filter="drama">Drama</div>
-                    <div class="filter-chip" data-filter="romance">Romance</div>
-                    <div class="filter-chip" data-filter="thriller">Thriller</div>
-                    <div class="filter-chip" data-filter="aventura">Aventura</div>
-                </div>
-            </section>
+
+    <!--busqueda y filtros section-->
+    <div class="controls fade-in">
+        <input type="text" class="search-bar" placeholder="Buscar películas por título, género o director..."
+            id="searchInput">
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Todas</button>
+            <button class="filter-btn" data-filter="accion">Acción</button>
+            <button class="filter-btn" data-filter="comedia">Comedia</button>
+            <button class="filter-btn" data-filter="drama">Drama</button>
+            <button class="filter-btn" data-filter="romance">Romance</button>
+            <button class="filter-btn" data-filter="terror">Terror</button>
+            <button class="filter-btn" data-filter="ciencia-ficcion">Sci-Fi</button>
+        </div>
+    </div>
 
     <!-- Movies Section -->
-    <section class="movies-container">
-        <h2 class="movies-container-title fade-in"></h2>
-        <!--<div class="movies-grid" id="moviesGrid">
-            Movies will be populated here 
-        </div>-->
+    <section class="movies-container" id="movies">
+        <h2 class="movies-container-title fade-in">CARTELERA</h2>
+        <div class="movies-grid" id="moviesGrid">
+            <!--Movies will be populated here -->
+        </div>
     </section>
 
+    <!-- Modal -->
+    <div class="modal" id="movieModal">
+        <div class="modal-content">
+            <!--<button class="close-btn" onclick="closeModal()"></button>-->
+            <div id="modalContent">
+                <!-- Modal content will be populated here. arreglar -->
+            </div>
+        </div>
+    </div>
+
+    <!--forms section-->
     <br><br>
     <section class="forms">
-    <div>
-        <h2 id="forEdit" style="display:none">¿Quieres editar la información de una Película?</h2>
-        <form id="editMovie" style="display:none">
-            <input type="hidden" id="editId" />
-            <input type="text" id="editTitle" placeholder="Título" required /><br>
-            <input type="text" id="editDirector" placeholder="Director" required /><br>
-            <input type="text" id="editYear" placeholder="Año" required /><br>
-            <input type="text" id="editGenre" placeholder="Genero" required /><br>
-            <textarea id="editSynopsis" placeholder="Sinopsis"></textarea><br>
+        <div>
+            <h2 id="forEdit" style="display:none">¿Quieres editar la información de una Película?</h2>
+            <form id="editMovie" style="display:none">
+                <input type="hidden" id="editId" />
+                <input type="text" id="editTitle" placeholder="Título" required /><br>
+                <input type="text" id="editYear" placeholder="Año" required /><br>
+                <input type="text" id="editGenre" placeholder="Genero" required /><br>
+                <input type="text" id="editDirector" placeholder="Director" /><br>
+                <textarea id="editSynopsis" placeholder="Sinopsis"></textarea><br>
 
-            <button type="submit">Actualizar</button><br>
-            <button type="button" id="cancelEdit">Cancelar</button>
-        </form>
-    </div>
+                <button type="submit">Actualizar</button><br>
+                <button type="button" id="cancelEdit">Cancelar</button>
+            </form>
+        </div>
 
-    <div>
         <h2>¿Quieres agregar una Película?</h2>
-        <form id="movieForm">
-            <input type="text" id="title" placeholder="Título" required /><br>
-            <input type="text" id="year" placeholder="Año" required /><br>
-            <input type="text" id="genre" placeholder="Genero" required /><br>
-            <input type="text" id="category" placeholder="Categoría" required /><br>
-            <input type="text" id="synopsis" placeholder="Sinopsís de la Película" /><br><br>
-            <button type="submit">Agregar Película</button>
-        </form>
-    </div>
+        <div class="form-Movie">
+            <br><br>
+            <form id="movieForm">
+                <input type="text" id="title" placeholder="Título" required /><br>
+                <input type="text" id="year" placeholder="Año" required /><br>
+                <input type="text" id="genre" placeholder="Genero" required /><br>
+                <input type="text" id="director" placeholder="Director" /><br>
+                <input type="text" id="synopsis" placeholder="Sinopsís de la Película" /><br><br>
+                <button type="submit">Agregar Película</button>
+            </form>
+        </div>
     </section>
 
     <!-- Footer -->
@@ -83,7 +102,7 @@
         <a href="https://factoriaf5.org" target="_blank">Factoria F5</a>
     </footer>
 
-    <script src="src/services.js" ></script>
+    <script src="src/services.js"></script>
 </body>
 
 </html>

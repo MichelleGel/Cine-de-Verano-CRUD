@@ -1,11 +1,10 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     background: linear-gradient(135deg, #00b4db 0%, #0083b0 25%, #00d4aa 50%, #7bdcb5 75%, #8dd3c7 100%);
     background-size: 400% 400%;
     animation: oceanWave 12s ease-in-out infinite;
@@ -35,14 +34,124 @@ body {
 }
 
 .navbar {
-    background: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(20px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding: 1rem 0;
-    position: fixed;
+    position: relative;
     width: 100%;
     top: 0;
     z-index: 1000;
+    background: rgba(12, 12, 12, 0.85);
+}
+
+
+.logo {
+    font-size: 2.2rem;
+    font-weight: 400;
+    background: linear-gradient(135deg, #00d4aa, #ffffff);
+    -webkit-background-clip: text;
+    /*-webkit-text-fill-color: transparent;*/
+    /*color: rgba(0, 0, 0, 0.562);  negro con 50% de opacidad */
+    background-clip: text;
+    text-shadow: 0 0 30px rgba(0, 212, 170, 0.623);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    color: #d7f7f2d5;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+    -webkit-text-fill-color: transparent;
+}
+
+.floating {
+    padding: 1rem;
+}
+
+.intro {
+    text-align: center;
+    padding: 4rem 0;
+    background: rgba(26, 26, 46, 0.8);
+    border-radius: 25px;
+    margin: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+
+}
+
+.intro::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(0, 212, 170, 0.1) 0%, transparent 70%);
+    animation: pulse 4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1) rotate(0deg);
+        opacity: 0.5;
+    }
+
+    50% {
+        transform: scale(1.1) rotate(180deg);
+        opacity: 0.8;
+    }
+}
+
+.intro-content {
+    position: relative;
+    z-index: 2;
+    
+}
+
+.intro h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(45deg, #01ffdd, #02ccff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+.intro p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    opacity: 1;
+    color: #ffffff;
+
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: linear-gradient(135deg, #00d4aa, #7bdcb5);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.4s ease;
+    box-shadow: 0 10px 30px rgba(0, 212, 170, 0.3);
+    border-color: transparent;
+}
+
+.cta-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 212, 170, 0.4);
+    background: linear-gradient(135deg, #7bdcb5, #00d4aa);
 }
 
 h1 {
@@ -57,6 +166,288 @@ h1 {
     animation: glow 2s ease-in-out infinite alternate;
 }
 
+/* Search and Filters */
+.controls {
+    padding: 2rem;
+    background: rgba(26, 26, 46, 0.8);
+    backdrop-filter: blur(10px);
+    margin: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.search-bar {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid rgba(43, 170, 255, 0.3);
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+
+}
+
+.search-bar:focus {
+    outline: none;
+    border-color: #00e1ff;
+    box-shadow: 0 0 20px rgba(255, 107, 53, 0.3);
+}
+
+.search-bar::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.filters {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.filter-btn {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 2px solid rgba(43, 170, 255, 0.3);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background: linear-gradient(135deg, #00d4aa, #7bdcb5);
+    border-color: transparent;
+    transform: translateY(-2px);
+}
+
+/* Movie Grid */
+.movies-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.movies-container-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: rgba(26, 26, 46, 0.8);
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.movie-card {
+    background: rgba(26, 26, 46, 0.8);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.movie-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 15px 40px rgba(0, 38, 255, 0.3);
+}
+
+.movie-poster {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(45deg, #ff6b35, #ffcc02, #004e89);
+    position: relative;
+    overflow: hidden;
+}
+
+.movie-poster::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    opacity: 0.3;
+}
+
+.movie-info {
+    padding: 1.5rem;
+}
+
+.movie-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #029aff;
+}
+
+.movie-genre {
+    color: #00ffbf;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.movie-rating {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.movie- {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.movie-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.movie-year {
+    color: rgba(255, 255, 255, 0.966);
+    font-size: 0.9rem;
+}
+
+.delete-btn, .edit-btn{
+    background: linear-gradient(135deg, #069e80, #5edba9);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.delete-btn:hover, .edit-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 107, 53, 0.4);
+}
+
+/* Modal */
+.modal {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 2000;
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(26, 26, 46, 0.95);
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 600px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    color: #ffffff;
+
+}
+
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+    color: #ff6b35;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .filters {
+        justify-content: center;
+    }
+
+    .movies-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+    }
+}
+
+/* Animations */
+.fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.floating {
+    animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.form-Movie{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+}
+
+/*FOOTER*/
 .footer {
     background: rgba(12, 12, 12, 0.95);
     padding: 2rem;
@@ -77,5 +468,5 @@ footer a {
 
 footer a:visited {
     color: #7eeedf;
-    
+
 }
