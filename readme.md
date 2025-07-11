@@ -54,15 +54,11 @@
     2.Instala JSON Server si no lo tienes:
     ```bash
     bash
-    Copiar
-    Editar
     npm install -g json-server
     ```
     3.Inicia el servidor:
 
     ```bash
-    Copiar
-    Editar
     json-server --watch db.json --port 3000
     ```
 
