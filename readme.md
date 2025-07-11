@@ -37,6 +37,7 @@
 
 ## 🧠 Retos enfrentados
 
+- 📽️ **Crear los metodos de petición desde cero y conseguir que funcionaran todos al mismo tiempo sin romperse.
 - 🐞 **Eventos y propagación:** fue necesario manejar `event.stopPropagation()` para evitar que el clic en los botones dentro de una tarjeta abriera el modal por error.
 - 🔗 **Carga de imágenes por URL:** implementar correctamente el uso de URLs externas sin descargas y asegurar compatibilidad al renderizar.
 - 🧪 **Actualización dinámica:** mantener la interfaz sincronizada tras cada operación CRUD sin recargar la página.
