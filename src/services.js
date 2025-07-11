@@ -106,7 +106,8 @@ document.getElementById("movieForm").addEventListener("submit", function (e) {
         year: document.getElementById("year").value,
         genre: document.getElementById("genre").value,
         director: document.getElementById("director").value,
-        synopsis: document.getElementById("synopsis").value
+        synopsis: document.getElementById("synopsis").value,
+        image: document.getElementById("image").value
         //id: Date.now().toString()// genera un ID unico basado en el tiempo
     };
     createMovie(newMovie); //llama al metodo POST
@@ -145,7 +146,8 @@ document.getElementById("editMovie").addEventListener("submit", function (e) {
         year: document.getElementById("editYear").value,
         genre: document.getElementById("editGenre").value,
         director: document.getElementById("editDirector").value,
-        synopsis: document.getElementById("editSynopsis").value
+        synopsis: document.getElementById("editSynopsis").value,
+        image: document.getElementById("image").value
     };
 
     updateMovie(id, editedMovie);
@@ -176,6 +178,7 @@ function showEditMovie(movie) {
     document.getElementById("editYear").value = movie.year;
     document.getElementById("editGenre").value = movie.genre;
     document.getElementById("editSynopsis").value = movie.synopsis;
+    document.getElementById("editImage").value = movie.image;
 
     //para que la pagina se mueva al formulario automaticamente
     document.getElementById("editMovie").scrollIntoView({ behavior: "instant" });
@@ -288,17 +291,17 @@ modal.addEventListener('click', function (e) {
 });
 
 function openModal(movie) {
-    modalContent.innerHTML = ` <h2 style="color: #ffcc02; margin-bottom: 1rem;">${movie.title}</h2>
+    modalContent.innerHTML = ` <h2 style="color: #029aff; margin-bottom: 1rem;">${movie.title}</h2>
                 <div style="margin-bottom: 1rem;">
-                    <span style="color: #ff6b35; font-weight: bold;">Género:</span> ${movie.genre} | 
-                    <span style="color: #ff6b35; font-weight: bold;">Año:</span> ${movie.year} | 
+                    <span style="color: #00ffbf; font-weight: bold;">Género:</span> ${movie.genre} | 
+                    <span style="color: #00ffbf; font-weight: bold;">Año:</span> ${movie.year} | 
                 </div>
                 <div style="margin-bottom: 1rem;">
-                    <span style="color: #ff6b35; font-weight: bold;">Director:</span> ${movie.director}
+                    <span style="color: #00ffbf; font-weight: bold;">Director:</span> ${movie.director}
                 </div>
             
                 <div style="margin-bottom: 2rem; line-height: 1.6;">
-                    <span style="color: #ff6b35; font-weight: bold;">Sinopsis:</span><br>
+                    <span style="color: #00ffbf; font-weight: bold;">Sinopsis:</span><br>
                     ${movie.synopsis}
                 </div>
                 <div style="text-align: center;">
