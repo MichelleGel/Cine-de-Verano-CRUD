@@ -445,6 +445,32 @@ h1 {
 }
 
 form{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 20px;
+    border: 1px solid #01215e;
+    border-radius: 10px;
+    background-color: #12fcd5;
+    margin-top:100px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #68ccfa;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+form button {
+    margin: 9px;
+    padding: 1rem 2.5rem;
+    background-color: #1672fd;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
 }
 
 /*FOOTER*/

@@ -242,7 +242,7 @@ async function filterAndDisplayMovies() {
     if (currentFilter !== 'all') {
         filteredMovies = filteredMovies.filter(movie =>
             movie.genre.toLowerCase().includes(currentFilter) ||
-            currentFilter === 'ciencia-ficcion' && movie.genre.toLowerCase().includes('ciencia-ficcion')
+            currentFilter === 'ciencia-ficcion' && movie.genre.toLowerCase().includes("ciencia-ficcion")
         );
     }
     displayMovies(filteredMovies);

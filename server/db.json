@@ -1,202 +1,202 @@
 {
-    "movies": [
-        {
-            "title": "Parásitos",
-            "year": 2019,
-            "genre": "Suspenso Psicologico",
-            "director": "Wes Anderson",
-            "synopsis": "Un excéntrico conserje y su joven protegido se ven envueltos en una disparatada aventura en un legendario hotel europeo.",
-            "id": "1",
-            "image": "https://m.media-amazon.com/images/S/pv-target-images/2fee9e617ca8af2eed8123c2686040bc355cad4c5ef7d5f4644e9e2bb39d2192.jpg"
-        },
-        {
-            "id": "2",
-            "title": "Titanes del Pacífico",
-            "director": "Guillermo del Toro",
-            "year": 2013,
-            "genre": "ciencia-ficcion",
-            "synopsis": "Cuando legiones de monstruosas criaturas, denominadas Kaiju, comienzan a salir del mar, se inicia una guerra que acabará con millones de vidas y que consumirá los recursos de la humanidad durante interminables años. Para combatir a los Kaiju gigantes diseñan un tipo especial de arma: enormes robots, llamados Jaegers, que son controlados simultáneamente por dos pilotos cuyas mentes están bloqueadas en un puente neural. Pero incluso los Jaegers proporcionan poca defensa ante los incansables Kaiju.",
-            "image": "https://tse4.mm.bing.net/th/id/OIP.imdlpVroMhOwmLoXfUneQgHaJ4?rs=1&pid=ImgDetMain&o=7&rm=3https://tse4.mm.bing.net/th/id/OIP.iwyxVwHbzj-W98GE_LNFJgHaLE?rs=1&pid=ImgDetMain&o=7&rm=3.jpg"
-        },
-        {
-            "title": "¿Y Donde Estan Las Rubias?",
-            "year": 2004,
-            "genre": "Comedia",
-            "director": "Keenen Ivory Wayans",
-            "synopsis": "Dos agentes del FBI, Marcus y Kevin, son conocidos por su torpeza. Cuando su jefe les da la oportunidad de redimirse asignándoles la protección de dos hermanas herederas, Brittany y Tiffany Wilson, las cuales están a punto de ser secuestradas, todo se complica.",
-            "id": "3",
-            "image": "https://tse4.mm.bing.net/th/id/OIP.iwyxVwHbzj-W98GE_LNFJgHaLE?rs=1&pid=ImgDetMain&o=7&rm=3.jpg"
-        },
-        {
-            "id": "4",
-            "title": "Son Como Niños",
-            "director": "Dennis Dugan",
-            "year": 2010,
-            "genre": "Comedia",
-            "synopsis": "Cinco amigos de la infancia, quienes se reúnen 30 años después de la muerte de su entrenador de baloncesto para revivir los recuerdos de su juventud y descubrir que, a pesar de sus vidas adultas, aún conservan la esencia de los niños que alguna vez fueron.",
-            "image": "https://mx.web.img3.acsta.net/pictures/20/07/06/22/18/3410533.jpg"
-        },
-        {
-            "id": "5",
-            "title": "JeruZalem",
-            "director": "Doron Paz",
-            "year": 2015,
-            "genre": "Suspenso",
-            "synopsis": "Cuando un par de amigas estadounidenses vuelan a Israel para visitar la ciudad de Jerusalén, una pesadilla bíblica cae sobre la ciudad. ",
-            "image": "https://m.media-amazon.com/images/M/MV5BMTc2MjU2ODY3M15BMl5BanBnXkFtZTgwMTg5OTc3NTE@._V1_FMjpg_UX1000_.jpg"
-        },
-        {
-            "id": "6",
-            "title": "El Origen",
-            "director": "Christopher Nolan",
-            "year": 2010,
-            "genre": "Drama",
-            "synopsis": "Dom Cobb es un ladrón, prófugo de la justicia estadounidense por el supuesto asesinato de su esposa, especializado en infiltrarse en los sueños para robar ideas, claves de bancos, mientras sus víctimas duermen.",
-            "image": "https://pics.filmaffinity.com/inception-652954101-large.jpg"
-        },
-        {
-            "id": "7",
-            "title": "#Alive",
-            "director": "Cho Il-hyung",
-            "year": 2020,
-            "genre": "Suspenso",
-            "synopsis": "Una ciudad es infectada por un virus misterioso, haciendo que todo se salga de control y siendo puesta en cuarentena, dejando a dos sobrevivientes completamente aislados y luchando por vivir en una situación crítica.",
-            "image": "https://www.themoviedb.org/t/p/original/g7hWnjMdqTYYI78yeCD3moObbRK.jpg"
-        },
-        {
-            "id": "8",
-            "title": "La Purga",
-            "director": "James DeMonaco",
-            "year": 2013,
-            "genre": "Accion",
-            "synopsis": "En 2014, un partido político llamado los Nuevos Padres Fundadores de América es elegido presidente tras un colapso económico y aprueba una ley que sanciona la Purga, un evento anual en el que todos los delitos (incluido el asesinato) son legales y los servicios de emergencia no están disponibles durante 12 horas.",
-            "image": "https://tse1.mm.bing.net/th/id/OIP.I-W8VoM5wP8IwHHQ8fryMgHaLH?rs=1&pid=ImgDetMain&o=7&rm=3.jpg"
-        },
-        {
-            "id": "9",
-            "title": "Lucy",
-            "director": "Luc Besson",
-            "year": 2014,
-            "genre": "Accion, ",
-            "synopsis": "Lucy Miller es una joven estadounidense que reside en Taiwán y a la que su pareja engaña para que entregue en su nombre un maletín en la habitación de un hotel.",
-            "image": "https://tse2.mm.bing.net/th/id/OIP.iwwct5-82jqQkPfL-mhPCgAAAA?rs=1&pid=ImgDetMain&o=7&rm=3.jpg"
-        },
-        {
-            "id": "10",
-            "title": "Cónclave",
-            "director": "Edward Berger",
-            "year": 2014,
-            "genre": "Suspenso Psicologico",
-            "synopsis": "Después de la muerte del papa a consecuencia de un ataque cardíaco, el colegio cardenalicio, bajo el liderazgo del cardenal decano Thomas Lawrence, se reúne en cónclave para elegir a su sucesor.",
-            "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/07/official-poster-for-conclave-2024.jpg"
-        },
-        {
-            "id": "11",
-            "title": "Los Vigilantes",
-            "director": "Ishana Shyamalan",
-            "year": 2024,
-            "genre": "Suspenso",
-            "synopsis": "Mina, una artista de 28 años, queda varada en un bosque en el oeste de Irlanda. Cuando encuentra refugio, sin saberlo, queda atrapada junto a tres extraños que son observados y acechados por misteriosas criaturas cada noche.",
-            "image": "https://www.aceprensa.com/wp-content/uploads/2024/06/los_vigilantes-cartel-11653.jpeg"
-        },
-        {
-            "id": "12",
-            "title": "Tren a Busan",
-            "director": "Yeon Sang-ho",
-            "year": 2016,
-            "genre": "Suspenso",
-            "synopsis": "Un virus letal se expande por Corea del Sur, provocando violentos altercados. Los pasajeros de un tren KTX que viaja de Seúl a Busan tendrán que luchar por su supervivencia.",
-            "image": "https://www.gscmovies.com.my/wp-content/uploads/2020/07/TTB-1.jpg"
-        },
-        {
-            "id": "13",
-            "title": "Perfect Blue",
-            "director": "Satoshi Kon",
-            "year": 1997,
-            "genre": "Drama Psicologico",
-            "synopsis": "Mima, exintegrante de un grupo musical japonés, comienza una nueva etapa como actriz tras el fracaso de su carrera como cantante. Al hacerlo, entra en una profunda crisis de identidad, que se intensifica al descubrir que alguien la vigila y que su vida privada ha sido expuesta en Internet.",
-            "image": "https://i.ebayimg.com/images/g/OVsAAOSwxPBhz5dp/s-l1600.jpg"
-        },
-        {
-            "id": "14",
-            "title": "Fractura",
-            "director": "Brad Anderson",
-            "year": 2019,
-            "genre": "Suspenso",
-            "synopsis": "Mientras viajan a través del país, Ray , su mujer y su hija hacen una parada en una zona de descanso y la niña tropieza, rompiéndose el brazo. Los tres ponen rumbo al hospital y, tras varias horas de trayecto, por fin logran que su hija sea atendida.",
-            "image": "https://i.pinimg.com/736x/ff/63/34/ff6334ae96847b39c563a36b2870d311.jpg"
-        },
-        {
-            "title": "El Paseo",
-            "year": 2010,
-            "genre": "Comedia",
-            "director": "Harold Trompetero",
-            "synopsis": "Después de 11 años de trabajo continuo, Álex Peinado decide pasar unas vacaciones inolvidables junto a su familia.",
-            "id": "47e3",
-            "image": "https://images.justwatch.com/poster/301767384/s718/el-paseo.jpg"
-        },
-        {
-            "id": "15",
-            "title": "Hotel Transylvania",
-            "director": "Genndy Tartakovsky",
-            "year": 2012,
-            "genre": "Comedia, Animada",
-            "synopsis": "Drácula vive con su hija Mavis en un lujoso hotel creado para proteger a los monstruos de la amenaza de los seres humanos. Sin embargo, la tranquilidad del lugar se verá interrumpida con la llegada de un hombre.",
-            "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/12/Hotel-Transylvania-poster.jpg"
-        },
-        {
-            "id": "16",
-            "title": "Animal",
-            "director": "Luke Greenfield",
-            "year": 2001,
-            "genre": "Comedia",
-            "synopsis": "Un policía tiene un accidente de tráfico. Cuando despierta una semana después descubre que un científico ha utilizado órganos de animales para reconstruir su cuerpo destrozado. Con esta mentalidad Marvin se convierte en un héroe hasta que sus instintos animales se apoderan de él en los momentos más inoportunos.",
-            "image": "https://i.pinimg.com/originals/34/a2/10/34a210c4aab9fcbe043f80a31ac11a87.jpg"
-        },
-        {
-            "id": "17",
-            "title": "Equilibrium",
-            "director": "Kurt Wimmer",
-            "year": 2002,
-            "genre": "ciencia-ficcion",
-            "synopsis": "En un régimen totalitario de una sociedad futura, se ha conseguido eliminar la guerra a base de suprimir todas las emociones: los libros, el arte y la música están estrictamente prohibidos, y los sentimientos se consideran crímenes que deben ser castigados con la muerte.",
-            "image": "https://tse1.mm.bing.net/th/id/OIP.LOg9vEmXe2n3PXZh9M51GAHaLH?rs=1&pid=ImgDetMain&o=7&rm=3.jpg"
-        },
-        {
-            "id": "18",
-            "title": "Milagros del Cielo",
-            "director": "Patricia Riggen",
-            "year": 2016,
-            "genre": "Drama",
-            "synopsis": "Una niña que sufre de un raro y grave trastorno digestivo se encuentra de repente milagrosamente curada tras sobrevivir a un terrible accidente. Cuando Christy descubre que Anna, su hija de 10 años, tiene una enfermedad rara sin solución, empieza a buscar sin descanso una cura para su hija.",
-            "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aIxGGaapNRxCKEsAHnAXWuoY3IG.jpg"
-        },
-        {
-            "id": "19",
-            "title": "Whiplash: Música y Obsesión",
-            "director": "Damien Chazelle",
-            "year": 2014,
-            "genre": "Drama",
-            "synopsis": "Andrew Neiman es un estudiante de primer año de jazz en el prestigioso Conservatorio Shaffer en la ciudad de Nueva York. Toca la batería desde joven y aspira a convertirse en un baterista de talla mundial como Buddy Rich.",
-            "image": "https://posterspy.com/wp-content/uploads/2023/06/image00005-copie-2.jpg"
-        },
-        {
-            "id": "20",
-            "title": "¡Este cuerpo no es el mío!",
-            "director": "Tom Brady",
-            "year": 2002,
-            "genre": "Comedia",
-            "synopsis": "Una joven adolescente, muy popular y atractiva pero mala, se despierta un día dentro del cuerpo de un hombre. Mientras intenta descubrir qué ha pasado y cómo volver a su estado anterior, se da cuenta entonces de lo cruel y maligna que ha sido con los demás hasta ese momento.",
-            "image": "https://www.ecured.cu/images/thumb/3/31/Este_cuerpo_no_es_m%C3%ADo.jpg/390px-Este_cuerpo_no_es_m%C3%ADo.jpg"
-        },
-        {
-            "title": "Como Entrenar a Tu Dragon",
-            "year": "2010",
-            "genre": "Animada",
-            "director": "Chris Sanders, Dean DeBlois",
-            "synopsis": "",
-            "image": "https://tse3.mm.bing.net/th/id/OIP.Da0tQOUzpwUTvOxppAMpKQHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
-            "id": "ac65"
-        }
-    ]
+  "movies": [
+    {
+      "title": "Parásitos",
+      "year": 2019,
+      "genre": "Suspenso Psicologico",
+      "director": "Wes Anderson",
+      "synopsis": "Un excéntrico conserje y su joven protegido se ven envueltos en una disparatada aventura en un legendario hotel europeo.",
+      "id": "1",
+      "image": "https://m.media-amazon.com/images/S/pv-target-images/2fee9e617ca8af2eed8123c2686040bc355cad4c5ef7d5f4644e9e2bb39d2192.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Titanes del Pacífico",
+      "director": "Guillermo del Toro",
+      "year": 2013,
+      "genre": "Ciencia Ficcion",
+      "synopsis": "Cuando legiones de monstruosas criaturas, denominadas Kaiju, comienzan a salir del mar, se inicia una guerra que acabará con millones de vidas y que consumirá los recursos de la humanidad durante interminables años. Para combatir a los Kaiju gigantes diseñan un tipo especial de arma: enormes robots, llamados Jaegers, que son controlados simultáneamente por dos pilotos cuyas mentes están bloqueadas en un puente neural. Pero incluso los Jaegers proporcionan poca defensa ante los incansables Kaiju.",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.imdlpVroMhOwmLoXfUneQgHaJ4?rs=1&pid=ImgDetMain&o=7&rm=3https://tse4.mm.bing.net/th/id/OIP.iwyxVwHbzj-W98GE_LNFJgHaLE?rs=1&pid=ImgDetMain&o=7&rm=3.jpg"
+    },
+    {
+      "title": "¿Y Donde Estan Las Rubias?",
+      "year": 2004,
+      "genre": "Comedia",
+      "director": "Keenen Ivory Wayans",
+      "synopsis": "Dos agentes del FBI, Marcus y Kevin, son conocidos por su torpeza. Cuando su jefe les da la oportunidad de redimirse asignándoles la protección de dos hermanas herederas, Brittany y Tiffany Wilson, las cuales están a punto de ser secuestradas, todo se complica.",
+      "id": "3",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.iwyxVwHbzj-W98GE_LNFJgHaLE?rs=1&pid=ImgDetMain&o=7&rm=3.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Son Como Niños",
+      "director": "Dennis Dugan",
+      "year": 2010,
+      "genre": "Comedia",
+      "synopsis": "Cinco amigos de la infancia, quienes se reúnen 30 años después de la muerte de su entrenador de baloncesto para revivir los recuerdos de su juventud y descubrir que, a pesar de sus vidas adultas, aún conservan la esencia de los niños que alguna vez fueron.",
+      "image": "https://mx.web.img3.acsta.net/pictures/20/07/06/22/18/3410533.jpg"
+    },
+    {
+      "id": "5",
+      "title": "JeruZalem",
+      "director": "Doron Paz",
+      "year": 2015,
+      "genre": "Suspenso",
+      "synopsis": "Cuando un par de amigas estadounidenses vuelan a Israel para visitar la ciudad de Jerusalén, una pesadilla bíblica cae sobre la ciudad. ",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTc2MjU2ODY3M15BMl5BanBnXkFtZTgwMTg5OTc3NTE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "6",
+      "title": "El Origen",
+      "director": "Christopher Nolan",
+      "year": 2010,
+      "genre": "Drama",
+      "synopsis": "Dom Cobb es un ladrón, prófugo de la justicia estadounidense por el supuesto asesinato de su esposa, especializado en infiltrarse en los sueños para robar ideas, claves de bancos, mientras sus víctimas duermen.",
+      "image": "https://pics.filmaffinity.com/inception-652954101-large.jpg"
+    },
+    {
+      "id": "7",
+      "title": "#Alive",
+      "director": "Cho Il-hyung",
+      "year": 2020,
+      "genre": "Suspenso",
+      "synopsis": "Una ciudad es infectada por un virus misterioso, haciendo que todo se salga de control y siendo puesta en cuarentena, dejando a dos sobrevivientes completamente aislados y luchando por vivir en una situación crítica.",
+      "image": "https://www.themoviedb.org/t/p/original/g7hWnjMdqTYYI78yeCD3moObbRK.jpg"
+    },
+    {
+      "id": "8",
+      "title": "La Purga",
+      "director": "James DeMonaco",
+      "year": 2013,
+      "genre": "Accion",
+      "synopsis": "En 2014, un partido político llamado los Nuevos Padres Fundadores de América es elegido presidente tras un colapso económico y aprueba una ley que sanciona la Purga, un evento anual en el que todos los delitos (incluido el asesinato) son legales y los servicios de emergencia no están disponibles durante 12 horas.",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.I-W8VoM5wP8IwHHQ8fryMgHaLH?rs=1&pid=ImgDetMain&o=7&rm=3.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Lucy",
+      "director": "Luc Besson",
+      "year": 2014,
+      "genre": "Accion",
+      "synopsis": "Lucy Miller es una joven estadounidense que reside en Taiwán y a la que su pareja engaña para que entregue en su nombre un maletín en la habitación de un hotel.",
+      "image": "https://tse2.mm.bing.net/th/id/OIP.iwwct5-82jqQkPfL-mhPCgAAAA?rs=1&pid=ImgDetMain&o=7&rm=3.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Cónclave",
+      "director": "Edward Berger",
+      "year": 2014,
+      "genre": "Suspenso Psicologico",
+      "synopsis": "Después de la muerte del papa a consecuencia de un ataque cardíaco, el colegio cardenalicio, bajo el liderazgo del cardenal decano Thomas Lawrence, se reúne en cónclave para elegir a su sucesor.",
+      "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/07/official-poster-for-conclave-2024.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Los Vigilantes",
+      "director": "Ishana Shyamalan",
+      "year": 2024,
+      "genre": "Suspenso",
+      "synopsis": "Mina, una artista de 28 años, queda varada en un bosque en el oeste de Irlanda. Cuando encuentra refugio, sin saberlo, queda atrapada junto a tres extraños que son observados y acechados por misteriosas criaturas cada noche.",
+      "image": "https://www.aceprensa.com/wp-content/uploads/2024/06/los_vigilantes-cartel-11653.jpeg"
+    },
+    {
+      "id": "12",
+      "title": "Tren a Busan",
+      "director": "Yeon Sang-ho",
+      "year": 2016,
+      "genre": "Suspenso",
+      "synopsis": "Un virus letal se expande por Corea del Sur, provocando violentos altercados. Los pasajeros de un tren KTX que viaja de Seúl a Busan tendrán que luchar por su supervivencia.",
+      "image": "https://www.gscmovies.com.my/wp-content/uploads/2020/07/TTB-1.jpg"
+    },
+    {
+      "id": "13",
+      "title": "Perfect Blue",
+      "director": "Satoshi Kon",
+      "year": 1997,
+      "genre": "Drama Psicologico",
+      "synopsis": "Mima, exintegrante de un grupo musical japonés, comienza una nueva etapa como actriz tras el fracaso de su carrera como cantante. Al hacerlo, entra en una profunda crisis de identidad, que se intensifica al descubrir que alguien la vigila y que su vida privada ha sido expuesta en Internet.",
+      "image": "https://i.ebayimg.com/images/g/OVsAAOSwxPBhz5dp/s-l1600.jpg"
+    },
+    {
+      "id": "14",
+      "title": "Fractura",
+      "director": "Brad Anderson",
+      "year": 2019,
+      "genre": "Suspenso",
+      "synopsis": "Mientras viajan a través del país, Ray , su mujer y su hija hacen una parada en una zona de descanso y la niña tropieza, rompiéndose el brazo. Los tres ponen rumbo al hospital y, tras varias horas de trayecto, por fin logran que su hija sea atendida.",
+      "image": "https://i.pinimg.com/736x/ff/63/34/ff6334ae96847b39c563a36b2870d311.jpg"
+    },
+    {
+      "title": "El Paseo",
+      "year": 2010,
+      "genre": "Comedia",
+      "director": "Harold Trompetero",
+      "synopsis": "Después de 11 años de trabajo continuo, Álex Peinado decide pasar unas vacaciones inolvidables junto a su familia.",
+      "id": "47e3",
+      "image": "https://images.justwatch.com/poster/301767384/s718/el-paseo.jpg"
+    },
+    {
+      "id": "15",
+      "title": "Hotel Transylvania",
+      "director": "Genndy Tartakovsky",
+      "year": 2012,
+      "genre": "Comedia, Animada",
+      "synopsis": "Drácula vive con su hija Mavis en un lujoso hotel creado para proteger a los monstruos de la amenaza de los seres humanos. Sin embargo, la tranquilidad del lugar se verá interrumpida con la llegada de un hombre.",
+      "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/12/Hotel-Transylvania-poster.jpg"
+    },
+    {
+      "id": "16",
+      "title": "Animal",
+      "director": "Luke Greenfield",
+      "year": 2001,
+      "genre": "Comedia",
+      "synopsis": "Un policía tiene un accidente de tráfico. Cuando despierta una semana después descubre que un científico ha utilizado órganos de animales para reconstruir su cuerpo destrozado. Con esta mentalidad Marvin se convierte en un héroe hasta que sus instintos animales se apoderan de él en los momentos más inoportunos.",
+      "image": "https://i.pinimg.com/originals/34/a2/10/34a210c4aab9fcbe043f80a31ac11a87.jpg"
+    },
+    {
+      "id": "17",
+      "title": "Equilibrium",
+      "director": "Kurt Wimmer",
+      "year": 2002,
+      "genre": "Ciencia Ficcion",
+      "synopsis": "En un régimen totalitario de una sociedad futura, se ha conseguido eliminar la guerra a base de suprimir todas las emociones: los libros, el arte y la música están estrictamente prohibidos, y los sentimientos se consideran crímenes que deben ser castigados con la muerte.",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.LOg9vEmXe2n3PXZh9M51GAHaLH?rs=1&pid=ImgDetMain&o=7&rm=3.jpg"
+    },
+    {
+      "id": "18",
+      "title": "Milagros del Cielo",
+      "director": "Patricia Riggen",
+      "year": 2016,
+      "genre": "Drama",
+      "synopsis": "Una niña que sufre de un raro y grave trastorno digestivo se encuentra de repente milagrosamente curada tras sobrevivir a un terrible accidente. Cuando Christy descubre que Anna, su hija de 10 años, tiene una enfermedad rara sin solución, empieza a buscar sin descanso una cura para su hija.",
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aIxGGaapNRxCKEsAHnAXWuoY3IG.jpg"
+    },
+    {
+      "id": "19",
+      "title": "Whiplash: Música y Obsesión",
+      "director": "Damien Chazelle",
+      "year": 2014,
+      "genre": "Drama",
+      "synopsis": "Andrew Neiman es un estudiante de primer año de jazz en el prestigioso Conservatorio Shaffer en la ciudad de Nueva York. Toca la batería desde joven y aspira a convertirse en un baterista de talla mundial como Buddy Rich.",
+      "image": "https://posterspy.com/wp-content/uploads/2023/06/image00005-copie-2.jpg"
+    },
+    {
+      "id": "20",
+      "title": "¡Este cuerpo no es el mío!",
+      "director": "Tom Brady",
+      "year": 2002,
+      "genre": "Comedia",
+      "synopsis": "Una joven adolescente, muy popular y atractiva pero mala, se despierta un día dentro del cuerpo de un hombre. Mientras intenta descubrir qué ha pasado y cómo volver a su estado anterior, se da cuenta entonces de lo cruel y maligna que ha sido con los demás hasta ese momento.",
+      "image": "https://www.ecured.cu/images/thumb/3/31/Este_cuerpo_no_es_m%C3%ADo.jpg/390px-Este_cuerpo_no_es_m%C3%ADo.jpg"
+    },
+    {
+      "title": "Como Entrenar a Tu Dragon",
+      "year": "2010",
+      "genre": "Animada",
+      "director": "Chris Sanders, Dean DeBlois",
+      "synopsis": "",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.Da0tQOUzpwUTvOxppAMpKQHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "id": "ac65"
+    }
+  ]
 }

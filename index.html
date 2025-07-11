@@ -42,7 +42,7 @@
             <button class="filter-btn" data-filter="drama">Drama</button>
             <button class="filter-btn" data-filter="romance">Romance</button>
             <button class="filter-btn" data-filter="suspenso">Suspenso</button>
-            <button class="filter-btn" data-filter="Ciencia-Ficcion">Sci-Fi</button>
+            <button class="filter-btn" data-filter="ciencia ficcion">Sci-Fi</button>
         </div>
     </div>
 
@@ -68,9 +68,9 @@
     <br><br>
     <section class="forms">
         <div>
-            <h2 id="forEdit" style="display:none">¿Quieres editar la información de una Película?</h2>
             <form id="editMovie" style="display:none">
-                <input type="hidden" id="editId" />
+                <h2 id="forEdit" style="display:none">¿Quieres editar la información de una Película?</h2>
+                <input type="hidden" id="editId" /><br>
                 <input type="text" id="editTitle" placeholder="Título" required /><br>
                 <input type="text" id="editYear" placeholder="Año" required /><br>
                 <input type="text" id="editGenre" placeholder="Genero" required /><br>
@@ -84,10 +84,10 @@
         </div>
 
         
-        <div class="form-Movie">
-            <h2>¿Quieres agregar otra Película a tu Cartelera?</h2>
-            <br><br>
+        <div class="form-Movie">   
             <form id="movieForm">
+                <h2>¿Quieres agregar otra Película a tu Cartelera?</h2>
+                <br>
                 <input type="text" id="title" placeholder="Título" required /><br>
                 <input type="text" id="year" placeholder="Año" required /><br>
                 <input type="text" id="genre" placeholder="Genero" required /><br>
